@@ -249,3 +249,7 @@ Generating autoload files
 [fli@magento65 magento]$
 
 ```
+
+### Try to Start Magento Setup Page
+![Alt text](magento.jpg?raw=true "Magento Setup Page")
+
