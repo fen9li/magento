@@ -250,6 +250,6 @@ Generating autoload files
 
 ```
 
-### Try to Start Magento Setup Page
-![Test magento setting up page](magento.png?raw=true "Magento Setup Page")
+### Test starting magento setting up page successfully
+![The new test magento setting up page](magento.png?raw=true "Magento Setup Page")
 
