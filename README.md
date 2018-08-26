@@ -63,7 +63,6 @@ Thanks for using MariaDB!
 ```
 
 ### Install apache httpd server and turn on firewall ports
-
 ```
 yum -y install httpd
 systemctl enable httpd
@@ -167,7 +166,7 @@ Loaded Configuration File => /etc/php.ini
 ---
 > memory_limit = 128M
 [root@magento65 ~]#
-
+```
 ### Install PHP mcrypt package if not yet
 ```
 [root@magento65 ~]# yum list installed | grep php-mcrypt
