@@ -154,6 +154,7 @@ Composer version 1.7.2 2018-08-16 16:57:12
 ## Install Magento
 
 ### Increase PHP memory limit for Magento in php.ini (PHP configuration) file
+```
 [root@magento65 ~]# php -i | grep php.ini
 Configuration File (php.ini) Path => /etc
 Loaded Configuration File => /etc/php.ini
@@ -204,7 +205,6 @@ Bye
 ### Confirm new database has been created successfully
 ![The new created magento database](mysqladmin.png)
 
-
 ### Install Magento now
 ```
 [root@magento65 ~]# wget https://github.com/magento/magento2/archive/2.2.zip
@@ -251,7 +251,6 @@ Package operations: 117 installs, 0 updates, 0 removals
 phpunit/phpunit suggests installing phpunit/php-invoker (^1.1)
 Generating autoload files
 [fli@magento65 magento]$
-
 ```
 
 ### Test starting magento setting up page successfully
