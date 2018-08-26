@@ -251,5 +251,5 @@ Generating autoload files
 ```
 
 ### Try to Start Magento Setup Page
-![Alt text](magento.jpg?raw=true "Magento Setup Page")
+![Test magento setting up page](magento.png?raw=true "Magento Setup Page")
 
