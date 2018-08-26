@@ -44,16 +44,7 @@ shutdown -r now
            ├─2291 /bin/sh /usr/bin/mysqld_safe --basedir=/usr
            └─2453 /usr/libexec/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/...
 
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: MySQL manual for more instructions.
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: Please report any problems at http://maria...ra
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: The latest information about MariaDB is av.../.
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: You can find additional information about ...t:
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: http://dev.mysql.com
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: Consider joining MariaDB's strong and vibr...y:
-Aug 24 19:12:07 magento65.fen9.li mariadb-prepare-db-dir[2211]: https://mariadb.org/get-involved/
-Aug 24 19:12:08 magento65.fen9.li mysqld_safe[2291]: 180824 19:12:08 mysqld_safe Logging to '/var/log/mar...g'.
-Aug 24 19:12:08 magento65.fen9.li mysqld_safe[2291]: 180824 19:12:08 mysqld_safe Starting mysqld daemon w...sql
-Aug 24 19:12:11 magento65.fen9.li systemd[1]: Started MariaDB database server.
+...
 Hint: Some lines were ellipsized, use -l to show in full.
 [root@magento65 ~]#
 
@@ -61,57 +52,7 @@ Hint: Some lines were ellipsized, use -l to show in full.
 
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
       SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
-
-In order to log into MariaDB to secure it, we'll need the current
-password for the root user.  If you've just installed MariaDB, and
-you haven't set the root password yet, the password will be blank,
-so you should just press enter here.
-
-Enter current password for root (enter for none):
-OK, successfully used password, moving on...
-
-Setting the root password ensures that nobody can log into the MariaDB
-root user without the proper authorisation.
-
-Set root password? [Y/n] y
-New password:password
-Re-enter new password:password
-Password updated successfully!
-Reloading privilege tables..
- ... Success!
-
-
-By default, a MariaDB installation has an anonymous user, allowing anyone
-to log into MariaDB without having to have a user account created for
-them.  This is intended only for testing, and to make the installation
-go a bit smoother.  You should remove them before moving into a
-production environment.
-
-Remove anonymous users? [Y/n] y
- ... Success!
-
-Normally, root should only be allowed to connect from 'localhost'.  This
-ensures that someone cannot guess at the root password from the network.
-
-Disallow root login remotely? [Y/n] y
- ... Success!
-
-By default, MariaDB comes with a database named 'test' that anyone can
-access.  This is also intended only for testing, and should be removed
-before moving into a production environment.
-
-Remove test database and access to it? [Y/n] y
- - Dropping test database...
- ... Success!
- - Removing privileges on test database...
- ... Success!
-
-Reloading the privilege tables will ensure that all changes made so far
-will take effect immediately.
-
-Reload privilege tables now? [Y/n] y
- ... Success!
-
+...
 Cleaning up...
 
 All done!  If you've completed all of the above steps, your MariaDB
