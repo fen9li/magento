@@ -201,6 +201,10 @@ Bye
 [root@magento65 ~]# 
 ```
 
+### Confirm new database has been created successfully
+![The new created magento database](mysqladmin.png)
+
+
 ### Install Magento now
 ```
 [root@magento65 ~]# wget https://github.com/magento/magento2/archive/2.2.zip
@@ -251,5 +255,5 @@ Generating autoload files
 ```
 
 ### Test starting magento setting up page successfully
-![The new test magento setting up page](magento.png?raw=true "Magento Setup Page")
+![The new test magento setting up page](magento.png)
 
