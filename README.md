@@ -8,9 +8,9 @@
 *	Memory: 	2GiB
 *	NICs: 		1 * NAT
 *	Hard Disk: 	20GiB 
-*	  /boot 		512MiB / Standard Partition / xfs
-*	  swap: 		2GiB / lvm / swap
-*	  / 		10GiB / lvm / xfs
+>	  /boot 		512MiB / Standard Partition / xfs
+>	  swap: 		2GiB / lvm / swap
+>	  / 		10GiB / lvm / xfs
 
 ### Configure Host 'magento65.fen9.li' basics
 
